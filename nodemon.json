@@ -1,0 +1,12 @@
+{
+  "delay": "2000",
+  "ignore": [".git", "node_modules", ".tmp/", "lib"],
+  "verbose": true,
+  "watch": ["src/"],
+  "env": {
+    "PORT": 51200,
+    "ETCD_NAMESPACE": "dev-services",
+    "ETCD_HOSTS": "10.12.77.216:2379"
+  },
+  "ext": "ts,json"
+}

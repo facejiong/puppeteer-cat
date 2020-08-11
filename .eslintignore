@@ -1,0 +1,4 @@
+static_codegen
+node_modules
+__tests__/
+downloads/
